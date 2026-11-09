@@ -24,6 +24,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // let result = names.some((names)=>{
 //     if(names.startsWith("r")){
 //         return names
