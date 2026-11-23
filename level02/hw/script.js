@@ -77,69 +77,71 @@
 // //////////////////////////
 
 // 5
-// let movieName = "interstellar";
-// let ticketPrice = 18;
-// let ticketCount = 4;
-// let customer = "giorgi";
-// let discount = 10;
+let movieName = "interstellar";
+let ticketPrice = 18;
+let ticketCount = 4;
+let customer = "giorgi";
+let discount = 10;
 
-// let totalCost = ticketPrice * ticketCount;
-// let finalPrice = totalCost - discount;
+let totalCost = ticketPrice * ticketCount;
+let finalPrice = totalCost - discount;
 
-// let ticketId = 500;
-// ticketId++;
+let ticketId = 500;
+ticketId++;
 
-// let upperCustomer = customer.toUpperCase();
-// let upperMovie = movieName.toUpperCase();
+let upperCustomer = customer.toUpperCase();
+let upperMovie = movieName.toUpperCase();
 
-// let orderInfo = `Ticket ID: ${ticketId}, Customer: ${upperCustomer}, Movie: ${upperMovie}, Tickets: ${ticketCount}, Final price: ${finalPrice} GEL.`;
+let orderInfo = `Ticket ID: ${ticketId}, Customer: ${upperCustomer}, Movie: ${upperMovie}, Tickets: ${ticketCount}, Final price: ${finalPrice} GEL.`;
 
-// console.log(totalCost);
-// console.log(finalPrice);
-// console.log(upperCustomer);
-// console.log(upperMovie);
-// console.log(orderInfo);
-// console.log(movieName.slice(-5));
-// console.log(customer.startsWith("g"));
+console.log(totalCost);
+console.log(finalPrice);
+console.log(upperCustomer);
+console.log(upperMovie);
+console.log(orderInfo);
+console.log(movieName.slice(-5));
+console.log(customer.startsWith("g"));
 
 // //////////////////////////
 
 // 6
-// let hotelName = "   grand palace hotel   ";
-// let customerName = "goga chalauri";
-// let roomPrice = 250;
-// let days = 5;
-// let roomNumber = 101;
-// let breakfastPrice = 30;
-// let hasBreakfast = true;
+let hotelName = "   grand palace hotel   ";
+let customerName = "goga chalauri";
+let roomPrice = 250;
+let days = 5;
+let roomNumber = 101;
+let breakfastPrice = 30;
+let hasBreakfast = true;
 
-// let cleanHotelName = hotelName.trim().toUpperCase();
+let cleanHotelName = hotelName.trim().toUpperCase();
 
-// let customerWords = customerName.split(" ");
-// let firstTwoLetters = customerWords[0].slice(0, 2);
-// let upperLastName = customerWords[1].toUpperCase();
+let customerWords = customerName.split(" ");
+let firstTwoLetters = customerWords[0].slice(0, 2);
+let upperLastName = customerWords[1].toUpperCase();
 
-// let totalHotelPrice = roomPrice * days;
+let totalHotelPrice = roomPrice * days;
 
-// if (hasBreakfast) {
-//     totalHotelPrice += breakfastPrice * days;
-// }
+if (hasBreakfast) {
+    totalHotelPrice += breakfastPrice * days;
+}
 
-// let bookingNumber = 100;
-// bookingNumber++;
+let bookingNumber = 100;
+bookingNumber++;
 
-// roomNumber++;
+roomNumber++;
 
-// console.log(cleanHotelName);
-// console.log(customerWords);
-// console.log(firstTwoLetters);
-// console.log(upperLastName);
-// console.log(totalHotelPrice);
-// console.log(bookingNumber);
-// console.log(roomNumber);
-// console.log(cleanHotelName.startsWith("GRAND"));
-// console.log(customerName.length);
+console.log(cleanHotelName);
+console.log(customerWords);
+console.log(firstTwoLetters);
+console.log(upperLastName);
+console.log(totalHotelPrice);
+console.log(bookingNumber);
+console.log(roomNumber);
+console.log(cleanHotelName.startsWith("GRAND"));
+console.log(customerName.length);
 
-// let finalMessage = `Hotel: ${cleanHotelName}, Customer: ${customerWords[0]} ${upperLastName}, Room: ${roomNumber}, Days: ${days}, Final price: ${totalHotelPrice} GEL.`;
 
-// console.log(finalMessage);
+
+let finalMessage = `Hotel: ${cleanHotelName}, Customer: ${customerWords[0]} ${upperLastName}, Room: ${roomNumber}, Days: ${days}, Final price: ${totalHotelPrice} GEL.`;
+
+console.log(finalMessage);
