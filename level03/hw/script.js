@@ -1,4 +1,4 @@
-// // 1
+// 1
 // let age = 22;
 // let isStudent = true;
 // let totalPrice = 180;
@@ -91,3 +91,61 @@
 // } else {
 //     console.log("Not enough money");
 // }
+
+// 6)
+let budget = 2000;
+let days = 7;
+let hasPassport = true;
+let isSummer = false;
+
+if (hasPassport === false) {
+  console.log("Passport required");
+} else if (budget >= 1500 && days >= 5) {
+  console.log("Trip approved");
+} else if (isSummer === true && budget >= 1000) {
+  console.log("Summer trip approved");
+} else if (budget <= 500 || days <= 2) {
+  console.log("trip rejected");
+} else {
+  console.log("Choose a cheaper destination");
+}
+/////////////////////////////////
+
+// 7)
+let attendance = 85;
+let homeworkCount = 8;
+let hasProject = true;
+let hasDebts = false;
+
+if (hasDebts === true && hasProject === false) {
+  console.log("Not allowed");
+} else if (attendance >= 80 && homeworkCount >= 7) {
+  console.log("Exam allowed");
+} else if (hasProject === true || attendance >= 95) {
+  console.log("Special permission granted");
+} else if (attendance <= 50 || homeworkCount <= 3) {
+  console.log("Exam denied");
+} else {
+  console.log("Additional tasks required");
+}
+/////////////////////////////////
+
+// 8)
+
+let totalSpent = 2500;
+let ordersCount = 12;
+let accountAge = 2;
+let hasPremium = false;
+let isBlocked = false;
+
+if (isBlocked === true) {
+  console.log("Account blocked");
+} else if (totalSpent >= 2000 && ordersCount >= 10) {
+  console.log("VIP Customer");
+} else if (hasPremium === true && accountAge >= 1) {
+  console.log("Premium Customer");
+} else if (totalSpent >= 1000 || ordersCount >= 5) {
+  console.log("Regular Customer");
+} else {
+  console.log("New Customer");
+}
