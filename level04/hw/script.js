@@ -155,3 +155,44 @@
 //   default:
 //     console.log("Beginner");
 // }
+////////////////////////////
+
+// 12
+
+// let food = "lazania";
+
+// switch (food) {
+//   case "pizza":
+//     console.log("Pizza costs 25 GEL");
+//     break;
+//   case "lazania":
+//     console.log("lazania costs 18 GEL")
+//     break
+//   case "pasta":
+//     console.log("Pasta costs 20 GEL")
+//     break
+//   case "salad":
+//     console.log("Salad costs 12 GEL")
+//     break
+//   default:
+//     console.log("Dish not found!")
+// }
+
+// 13
+
+// let mode = "snow";
+
+// switch (mode) {
+//   case "sport":
+//     console.log("Sport mode activated!")
+//     break
+//   case "eco":
+//     console.log("Eco mode activated!")
+//     break
+//   case "normal":
+//     console.log("Normal mode activated!")
+//     break
+//   case "snow":
+//     console.log("snow mod activated!")
+// }
+
