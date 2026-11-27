@@ -1,5 +1,5 @@
 // // 1
-// let age = Number(prompt("Enter your age"));
+// let age = 20;
 
 // if (age >= 18) {
 //     console.log("Adult");
@@ -7,8 +7,10 @@
 //     console.log("Minor");
 // }
 
+// //////////////////////////
+
 // // 2
-// let num = Number(prompt("Enter a number"));
+// let num = 10;
 
 // if (num > 0) {
 //     console.log("Positive");
@@ -16,8 +18,10 @@
 //     console.log("Negative or Zero");
 // }
 
+// //////////////////////////
+
 // // 3
-// let price = Number(prompt("Enter product price"));
+// let price = 150;
 
 // if (price > 100) {
 //     price -= 20;
@@ -25,8 +29,10 @@
 
 // console.log(price);
 
+// //////////////////////////
+
 // // 4
-// let score = Number(prompt("Enter your score"));
+// let score = 65;
 
 // if (score >= 50) {
 //     console.log("Passed");
@@ -34,8 +40,10 @@
 //     console.log("Failed");
 // }
 
+// //////////////////////////
+
 // // 5
-// let score2 = Number(prompt("Enter your score"));
+// let score2 = 85;
 
 // let result = score2 >= 90 ? "Excellent" :
 //              score2 >= 70 ? "Good" :
@@ -43,26 +51,32 @@
 
 // console.log(result);
 
+// //////////////////////////
+
 // // 6
-// let num2 = Number(prompt("Enter a number"));
+// let num2 = -5;
 
 // let result2 = num2 > 0 ? "Positive" :
 //               num2 === 0 ? "Zero" : "Negative";
 
 // console.log(result2);
 
+// //////////////////////////
+
 // // 7
-// let a = Number(prompt("Enter first side"));
-// let b = Number(prompt("Enter second side"));
-// let c = Number(prompt("Enter third side"));
+// let a = 5;
+// let b = 5;
+// let c = 5;
 
 // let result3 = a === b && b === c ? "Equilateral" :
 //               a === b || b === c || a === c ? "Isosceles" : "Scalene";
 
 // console.log(result3);
 
+// //////////////////////////
+
 // // 8
-// let price2 = Number(prompt("Enter purchase amount"));
+// let price2 = 250;
 
 // let discount = price2 > 200 ? 0.30 :
 //                price2 > 100 ? 0.15 : 0;
@@ -71,8 +85,10 @@
 
 // console.log(finalPrice);
 
+// //////////////////////////
+
 // // 9
-// let score3 = Number(prompt("Enter score"));
+// let score3 = 95;
 
 // switch (true) {
 //     case score3 >= 90 && score3 <= 100:
@@ -91,10 +107,12 @@
 //         console.log("Invalid Score");
 // }
 
+// //////////////////////////
+
 // // 10
-// let price3 = Number(prompt("Enter product price"));
-// let age2 = Number(prompt("Enter your age"));
-// let premium = prompt("Do you have Premium? true/false") === "true";
+// let price3 = 250;
+// let age2 = 20;
+// let premium = true;
 
 // switch (true) {
 //     case price3 > 200 && premium:
@@ -110,10 +128,12 @@
 //         console.log("5% Discount");
 // }
 
+// //////////////////////////
+
 // // 11
-// let age3 = Number(prompt("Enter athlete age"));
-// let score4 = Number(prompt("Enter athlete score"));
-// let experience = prompt("Do you have experience? true/false") === "true";
+// let age3 = 20;
+// let score4 = 95;
+// let experience = true;
 
 // switch (true) {
 //     case age3 >= 18 && score4 >= 90 && experience:
